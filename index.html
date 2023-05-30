@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <h1>Tortas</h1>
+    <meta name="viewport" content="width=device-width">
+     <script src="libs/Bignumber.min.js/bignumber.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <form id="forma">
+  <fieldset>
+    <legend>Cuales tortas quieres.</legend>
+    <div>
+      <label>
+        <input type="checkbox" name="tortas" value="Mexicana" data-precio="95">
+        Mexicana
+      </label>
+    </div>
+    <div>
+      <label>
+        <input type="checkbox" name="tortas" value="Hawaiiana" data-precio="100">
+        Hawaiiana
+      </label>
+    </div>
+    <div>
+      <label>
+        <input type="checkbox" name="tortas" value="Italiana" data-precio="110">
+        Italiana
+      </label>
+    </div>
+    <div>
+      <label>
+        <input type="checkbox" name="tortas" value="Española" data-precio="120">
+        Española
+      </label>
+    </div>
+    
+  </fieldset>
+  
+</form>
+<output id="salidaTortas"></output>
+   <h2>Total: $<span id="total">0</span></h2>
+    <script  src="calcosto.js"></script>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+html {font-family: sans-serif; text-align: center}
+body {display: inline-block; text-align: left}
+label, legend {font-weight: bold}
+*:required, .obligatorio {border: thin solid blue}
+input[type=number], .numero {text-align: right}
+dfn {font-weight: bold}
+/* output después de br o de fieldset, footer y em dentro de form llevan texto
+ * pequeño. */
+br + output, fieldset + output, footer, form em {font-size: small}
+fieldset label, label * {font-weight: normal}
+.error {color: red}
